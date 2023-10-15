@@ -20,7 +20,7 @@ G1 Y-3
 
 
 ; retract 20mm before cutting.
-G1 E-20 F200    ;Retract Filament  20 mm.
+G1 E-20 F1800    ;Retract Filament  20 mm.
 M400                  ;Waits until pushing out is completed before doing anything else. 
 
 
