@@ -8,3 +8,7 @@ Contact us either me or on Cinderwing discord. 3D Printing Experimentation and D
 Merger of other sets:
 1) https://github.com/bambulab/BambuStudio/issues/1661  - speeds up filament changes
 2) https://www.printables.com/model/582382-bambulab-profile-for-up-to-60-purge-reduction  - waste reduction
+
+Source for the gcode files can be found here:
+* change filament / layer change / end gcode / pause:  https://github.com/bambulab/BambuStudio/blob/030aab50686dae861c60856695a2a59b6d6f1937/resources/profiles/BBL/machine/fdm_bbl_3dp_001_common.json
+* 
