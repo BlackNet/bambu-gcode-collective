@@ -12,3 +12,6 @@ Merger of other sets:
 Source for the gcode files can be found here:
 * change filament / layer change / end gcode / pause:  https://github.com/bambulab/BambuStudio/blob/master/resources/profiles/BBL/machine/fdm_bbl_3dp_001_common.json
 * machine start is MACHINE + NOZZLE SPECIFIC:  https://github.com/bambulab/BambuStudio/tree/master/resources/profiles/BBL/machine
+
+Sound level:
+for PLA and the insane noise level with PLA there is a filament gcode file that will help with that.
