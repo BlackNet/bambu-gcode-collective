@@ -15,3 +15,8 @@ Source for the gcode files can be found here:
 
 Sound level:
 for PLA and the insane noise level with PLA there is a filament gcode file that will help with that.
+
+
+
+files:
+) P1S_Change_Filament_1.24 - Created by magpulx720 for the P1S.
