@@ -114,22 +114,21 @@ M106 P1 S255
 G92 E0
 G1 E-[new_retract_length_toolchange] F1800
 
-G1 Y255 F18000
-G1 X80 F18000
-G1 X60 F18000
-G1 X80 F18000
-G1 X60 F18000;shake to put down garbage
-G1 X70 F18000
-G1 X90 F18000
+G1 X80 F15000
+G1 X60 F15000
+G1 X80 F15000
+G1 X60 F15000; shake to put down garbage
 
-G1 Y255 F18000
+G1 X70 F5000
+G1 X90 F3000
+G1 Y255 F4000
 G1 X100 F5000
 G1 Y265 F5000
-G1 X70 F18000
-G1 X100 F18000
-G1 X70 F18000
-G1 X100 F18000
-G1 X165 F18000;wipe and shake
+G1 X70 F10000
+G1 X100 F5000
+G1 X70 F10000
+G1 X100 F5000
+G1 X165 F15000; wipe and shake
 G1 Y256 ; move Y to aside, prevent collision
 
 G1 Z{max_layer_z + 3} F3000
@@ -142,3 +141,4 @@ M204 S[default_acceleration]
 G1 X[x_after_toolchange] Y[y_after_toolchange] Z[z_after_toolchange] F18000
 {endif}
 M621 S[next_extruder]A
+
