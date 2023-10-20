@@ -40,8 +40,8 @@ M620.1 E{new_filament_e_feedrate * 3} T{new_filament_temp}
 {if next_extruder < 255}
 
 
-; extrude 10 mm after cutting
-G1 E10 F1800  ;Filament is pushed out 20 mm. 
+; extrude 20 mm after cutting
+G1 E20 F1800  ;Filament is pushed out 20 mm. 
 ;M400  ;Wait for extrusion to finish before doing anything else. <<-- may not be needed.
 
 
